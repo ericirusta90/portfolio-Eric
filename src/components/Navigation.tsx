@@ -5,10 +5,7 @@ interface Props {
 	setTabActiveIndex: (index: number) => void;
 }
 
-export const Navigation = ({
-	tabActiveIndex,
-	setTabActiveIndex,
-}: Props) => {
+export const Navigation = ({tabActiveIndex, setTabActiveIndex} : Props) => {
 	return (
 		<div className='flex mt-12 border-b border-gray-200'>
 			{tabs.map(tab => (

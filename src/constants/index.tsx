@@ -116,20 +116,21 @@ export const projects: Project[] = [
 		projectUrl: 'https://crmclientes.netlify.app/iniciar-sesion',
 		githubUrl: 'https://github.com/ericirusta90/crm-frontend',
 		imageSrc: '/cmr.jpeg',
-	},/*
+	},
 	{
 		id: 5,
-		name: '',
+		name: 'Dashboard',
 		description:
-			'',
+			'Panel de seguimiento del tiempo donde el usuario puede cambiar entre la visualización de estadísticas diarias, semanales y mensuales',
 		technologies: [
 			'Tailwind CSS',
-			
+			'React',
+			'TypeScript'
 		],
-		projectUrl: '',
-		githubUrl: '',
-		imageSrc: '/',
-	},
+		projectUrl: 'https://dashboard-reporte.vercel.app/',
+		githubUrl: 'https://github.com/ericirusta90/dashboard-reporte',
+		imageSrc: '/dashboard.jpeg',
+	},/*
 	{
 		id: 6,
 		name: '',

@@ -30,6 +30,7 @@ const getWhatsAppLink = (phone: string): string => {
 };
 
 export const Header = () => {
+	// Desestructuración de la información personal
 	const {
 		photoSrc,
 		name,
@@ -41,8 +42,7 @@ export const Header = () => {
 		socialLinks,
 	} = personalInfo;
 
-	const [isActiveNotification, setIsActiveNotification] =
-		useState(false);
+	const [isActiveNotification, setIsActiveNotification] = useState(false);
 
 	const handleContactClick = () => {
 		navigator.clipboard.writeText(contactEmail);
@@ -50,7 +50,7 @@ export const Header = () => {
 
 		setTimeout(() => {
 			setIsActiveNotification(false);
-		}, 1500);
+		}, 2000);
 	};
 
 	return (
@@ -77,7 +77,7 @@ export const Header = () => {
 					<div className='flex gap-10 items-center'>
 						<div className='flex flex-col items-center'>
 							<span className='font-bold text-xl sm:text-2xl'>
-								4
+								5
 							</span>
 							<span className='text-gray-600 text-sm sm:text-base'>
 								Proyectos

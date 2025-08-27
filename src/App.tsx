@@ -5,8 +5,8 @@ import type { Project } from './types';
 function App() {
 	
 	const [tabActiveIndex, setTabActiveIndex] = useState<number>(1);
-	const [selectedProject, setSelectedProject] =
-		useState<Project | null>(null);
+
+	const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
 	return (
 		<div className='bg-slate-50 min-h-screen'>

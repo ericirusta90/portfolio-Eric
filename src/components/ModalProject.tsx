@@ -7,10 +7,7 @@ interface Props {
 	setSelectedProject: (project: Project | null) => void;
 }
 
-export const ModalProject = ({
-	selectedProject,
-	setSelectedProject,
-}: Props) => {
+export const ModalProject = ({selectedProject, setSelectedProject }: Props) => {
 	return (
 		<div
 			className='fixed inset-0 bg-black/70 flex justify-center items-center z-50'
