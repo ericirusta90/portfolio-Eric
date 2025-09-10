@@ -125,25 +125,29 @@ export const projects: Project[] = [
 		technologies: [
 			'Tailwind CSS',
 			'React',
-			'TypeScript'
+			'TypeScript',
+			'Zustand'
 		],
 		projectUrl: 'https://dashboard-reporte.vercel.app/',
 		githubUrl: 'https://github.com/ericirusta90/dashboard-reporte',
 		imageSrc: '/dashboard.jpeg',
-	},/*
+	},
 	{
 		id: 6,
-		name: '',
+		name: 'Tip Calculator',
 		description:
-			'',
+			'Aplicación que permite calcular propinas de manera sencilla y rápida.',
 		technologies: [
 			'Tailwind CSS',
+			'React',
+			'TypeScript',
+			'Zustand'
 
 		],
-		projectUrl: '',
-		githubUrl: '',
-		imageSrc: '/',
-	},*/
+		projectUrl: 'https://tip-calculator-iota-ashy.vercel.app/',
+		githubUrl: 'https://github.com/ericirusta90/tip-calculator',
+		imageSrc: '/tip-calculator.jpeg',
+	},
 ];
 
 export const experience = [

@@ -77,7 +77,7 @@ export const Header = () => {
 					<div className='flex gap-10 items-center'>
 						<div className='flex flex-col items-center'>
 							<span className='font-bold text-xl sm:text-2xl'>
-								5
+								6
 							</span>
 							<span className='text-gray-600 text-sm sm:text-base'>
 								Proyectos
